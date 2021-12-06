@@ -14,7 +14,7 @@
 
 As a current M.S. in Data Science student at NYU, I'm looking to work as a full-time data scientist after I graduate. I think it's important for me and other job seekers to more fully understand compensation in the STEM field. However, it is not entirely clear which specific factors are driving STEM compensations. 
 
-In this group project, I answer the following questions: 
+In this project, I answer the following questions: 
 + Which STEM roles are the most well-paid?
 + Are graduate degrees such as Master’s degrees and Doctorates important driving factors of salary compensation? 
 + Do years of experience directly contribute to the amount of compensation? 
@@ -93,19 +93,19 @@ First, I grouped ‘years of experience’ into buckets of 5-year spans and plot
 <img src="Images/Salary_Decomposition_by_Years_of_Experience.png" style>
 </p>
 
-Second, we plotted the average salary for each ‘title’ and sorted them by ascending order of ‘total yearly compensation’. Software Engineering Manager takes the lead by earning around $360,000, followed by Product Manager (~$260,000) and Technical Program Manager (~$240,000). The ‘base salary’ does not vary much for different positions, but the figure clearly shows that manager roles have higher ‘stock grant value’ than other roles, and that sales roles have higher ‘bonus’ than other roles.
+Second, I plotted the average salary for each ‘title’ and sorted them by ascending order of ‘total yearly compensation’. Software Engineering Manager takes the lead by earning around $360,000, followed by Product Manager ($260,000) and Technical Program Manager ($240,000). The ‘base salary’ does not vary much for different positions, but the figure clearly shows that manager roles have higher ‘stock grant value’ than other roles, and that sales roles have higher ‘bonus’ than other roles.
 
 <p align="center">
 <img src="Images/Salary_Decomposition_by_Title.png" style>
 </p>
 
-Lastly, we plotted the average salary for each ‘education’ category and sorted them by ascending order of ‘total yearly compensation’. In general, the higher the degree obtained, the higher for all three parts of ‘total yearly compensation’. The ‘total yearly compensation’ is around $290,000 for Doctorate degree holders, $220,000 for Master’s degree holders, and $180,000 for Bachelor’s degree holders. However, employees with a high school degree or equivalent and those who only completed some college coursework receive a higher ‘total yearly compensation’ of around $220,000 than Bachelor’s degree holders. This could again possibly be attributed to the fact that our data comes from those already in the STEM field, so those who did not finish their degree or only have a high school degree could be individuals who were recruited early by companies for already being top candidates. There could also be noise as we have a limited amount of data for those variables.
+Lastly, I plotted the average salary for each ‘education’ category and sorted them by ascending order of ‘total yearly compensation’. In general, the higher the degree obtained, the higher for all three parts of ‘total yearly compensation’. The ‘total yearly compensation’ is around $290,000 for Doctorate degree holders, $220,000 for Master’s degree holders, and $180,000 for Bachelor’s degree holders. However, employees with a high school degree or equivalent and those who only completed some college coursework receive a higher ‘total yearly compensation’ of around $220,000 than Bachelor’s degree holders. This could again possibly be attributed to the fact that our data comes from those already in the STEM field, so those who did not finish their degree or only have a high school degree could be individuals who were recruited early by companies for already being top candidates. There could also be noise as there is a limited amount of data for those variables.
 
 <p align="center">
 <img src="Images/Salary_Decomposition_by_Education.png" style>
 </p>
 
-Finally, since we are interested in knowing the most important factors that determine ‘total yearly compensation’, we decided to implement a multiple regression analysis. To do so, we first formatted our data so that we could train our model and implemented some feature engineering. Next, we implemented scikit-learn’s train-test-split function to randomly partition both our predictors and outcome variable using an 80/20 split. With the training subset we fit a multiple regression model, which we then used to make predictions using the testing subset of our predictors matrix. Below is a plot of the beta coefficient for each of our predictors so that we could visually assess the importance of each factor.
+Finally, since I was interested in knowing the most important factors that determine ‘total yearly compensation’, I decided to implement a multiple regression analysis. To do so, I first formatted our data and implemented some feature engineering so that I could train the model. Next, I implemented scikit-learn’s train-test-split function to randomly partition both the predictors and outcome variable using an 80/20 split. With the training subset I fit a multiple regression model, which I then used to make predictions using the testing subset of our predictors matrix. Below is a plot of the beta coefficient for each of our predictors so that I could visually assess the importance of each factor.
 
 The larger the coefficient, the most important the factor is in determining total yearly compensation. Interestingly, it appears that the 4 most important factors are having a Ph.D., working San Francisco, being a software engineering manager, and working at Google.
 
