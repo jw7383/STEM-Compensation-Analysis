@@ -113,7 +113,7 @@ The larger the coefficient, the most important the factor is in determining tota
 <img src="Images/Beta_distribution_of_top_features.png" style>
 </p>
 
-View the full report <a href="https://github.com/jw7383/STEM-Compensation-Analysis/blob/main/Report.pdf" target="_blank" here.</a>
+View the full report <a href="https://github.com/jw7383/STEM-Compensation-Analysis/blob/main/Report.pdf" target="_blank"> here.</a>
 
 
 ## Installation
