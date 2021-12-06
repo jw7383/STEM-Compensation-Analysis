@@ -14,7 +14,7 @@
 
 As a current M.S. in Data Science student at NYU, I'm looking to work as a full-time data scientist after I graduate. I think it's important for me and other job seekers to more fully understand compensation in the STEM field. However, it is not entirely clear which specific factors are driving STEM compensations. 
 
-In this project, I answer the following questions: 
+In this group project, I answer the following questions: 
 + Which STEM roles are the most well-paid?
 + Are graduate degrees such as Master’s degrees and Doctorates important driving factors of salary compensation? 
 + Do years of experience directly contribute to the amount of compensation? 
