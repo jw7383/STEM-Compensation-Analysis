@@ -1,7 +1,5 @@
 # Analysis of Full-time STEM Compensation
 
-**Project Status: Completed**
-
 ## Table of contents
 - [Introduction](#introduction)
 - [Methods Used](#methods-used)
@@ -33,7 +31,7 @@ In this report, I will explore possible answers to these questions and more by a
 + Data Visualization
 + Multiple Linear Regression
 
-## Technologies:
+## Technologies
 [(Back to top)](#table-of-contents)
 + Python
 + NumPy 
@@ -45,7 +43,7 @@ In this report, I will explore possible answers to these questions and more by a
 + Sklearn
 + Requests
 
-## Project Description:
+## Project Description
 [(Back to top)](#table-of-contents)
 <br>
 
@@ -63,10 +61,10 @@ The project tasks involved:
 + Cleaning the data by using pandas
 + Conducting an exploratory data analysis (EDA) to investigate factors impacting STEM Compensation
 + Feature engineering by adding race and education from the 'other details' column and creating dummy columns for the categorical variables
-+ To read more about the data cleaning and feature engineering process,  view <a href="https://github.com/jw7383/STEM-Compensation-Analysis/blob/jw7383-patch-1/STEM_Compensation_Analysis.ipynb" target="_blank">full code here</a> and the <a href="https://github.com/jw7383/STEM-Compensation-Analysis/blob/jw7383-patch-1/Report.pdf" target="_blank">full report here. </a>
++ To read more about the data cleaning and feature engineering process,  view <a href="https://github.com/jw7383/STEM-Compensation-Analysis/blob/main/STEM_Compensation_Analysis.ipynb" target="_blank">full code here</a> and the <a href="https://github.com/jw7383/STEM-Compensation-Analysis/blob/main/Report.pdf" target="_blank">full report here. </a>
 + Implementing a Multiple Regression Analysis to see the most important factors that determine 'total yearly compensation'
 
-## Project Results:
+## Project Results
 [(Back to top)](#table-of-contents)
 <br>
 
@@ -115,10 +113,10 @@ The larger the coefficient, the most important the factor is in determining tota
 <img src="Images/Beta_distribution_of_top_features.png" style>
 </p>
 
-View the full report <a href="" target="_blank" here.</a>
+View the full report <a href="https://github.com/jw7383/STEM-Compensation-Analysis/blob/main/Report.pdf" target="_blank" here.</a>
 
 
-## Installation:
+## Installation
 [(Back to top)](#table-of-contents)
 + Clone this repo <a href="https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/cloning-a-repository" target="_blank">(for help see this tutorial).</a>
-+ The full code is stored in this repository. <a href="https://github.com/jw7383/STEM-Compensation-Analysis/blob/jw7383-patch-1/STEM_Compensation_Analysis.ipynb" target="_blank">Click here for notebook.</a>
++ The full code is stored in this repository. <a href="https://github.com/jw7383/STEM-Compensation-Analysis/blob/main/STEM_Compensation_Analysis.ipynb" target="_blank">Click here for notebook.</a>
