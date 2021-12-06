@@ -63,7 +63,7 @@ The project tasks involved:
 + Cleaning the data by using pandas
 + Conducting an exploratory data analysis (EDA) to investigate factors impacting STEM Compensation
 + Feature engineering by adding race and education from the 'other details' column and creating dummy columns for the categorical variables
-+ To read more about the data cleaning and feature engineering process,  view <a href="https://github.com/jw7383/STEM-Compensation-Analysis/blob/jw7383-patch-1/STEM_Compensation_Analysis.ipynb" target="_blank">full code here</a> and the <a href="" target="_blank">full report here. </a>
++ To read more about the data cleaning and feature engineering process,  view <a href="https://github.com/jw7383/STEM-Compensation-Analysis/blob/jw7383-patch-1/STEM_Compensation_Analysis.ipynb" target="_blank">full code here</a> and the <a href="https://github.com/jw7383/STEM-Compensation-Analysis/blob/jw7383-patch-1/Report.pdf" target="_blank">full report here. </a>
 + Implementing a Multiple Regression Analysis to see the most important factors that determine 'total yearly compensation'
 
 ## Project Results:
